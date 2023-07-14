@@ -20,6 +20,9 @@ it, simply add the following line to your Podfile:
 pod 'GemvaryToolSDK'
 ```
 
+git push -u origin main
+git branch -M main
+
 ## Author
 
 songmenglong, songmenglong@gemvary.com

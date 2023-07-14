@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		1CC4690DDB391F67E7CBED2C /* Pods-GemvaryToolSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GemvaryToolSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-GemvaryToolSDK_Example/Pods-GemvaryToolSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2F372DDA96E4396F69F22712 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2F372DDA96E4396F69F22712 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		309471C567E4EC22AA6AA8BC /* Pods_GemvaryToolSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GemvaryToolSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* GemvaryToolSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemvaryToolSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,9 +41,9 @@
 		607FACE51AFB9204008FA782 /* GemvaryToolSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemvaryToolSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		620AC11C6BDCAF7B26EF9341 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		620AC11C6BDCAF7B26EF9341 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7020C01B90F2DAB69E1DCC12 /* Pods-GemvaryToolSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GemvaryToolSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-GemvaryToolSDK_Tests/Pods-GemvaryToolSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7FC516281ED453CCA1221FB4 /* GemvaryToolSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GemvaryToolSDK.podspec; path = ../GemvaryToolSDK.podspec; sourceTree = "<group>"; };
+		7FC516281ED453CCA1221FB4 /* GemvaryToolSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GemvaryToolSDK.podspec; path = ../GemvaryToolSDK.podspec; sourceTree = "<group>"; };
 		A9ECE80EEDC5D5BA213AE11A /* Pods-GemvaryToolSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GemvaryToolSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GemvaryToolSDK_Tests/Pods-GemvaryToolSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C26D52A30B8E56D06370016C /* Pods-GemvaryToolSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GemvaryToolSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-GemvaryToolSDK_Example/Pods-GemvaryToolSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E7D824560E610D1221CE562F /* Pods_GemvaryToolSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GemvaryToolSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				A9ECE80EEDC5D5BA213AE11A /* Pods-GemvaryToolSDK_Tests.debug.xcconfig */,
 				7020C01B90F2DAB69E1DCC12 /* Pods-GemvaryToolSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7UA78HHHB8;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7UA78HHHB8;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,11 +271,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GemvaryToolSDK_Example/Pods-GemvaryToolSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GemvaryToolSDK/GemvaryToolSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/CleanJSON/CleanJSON.framework",
+				"${PODS_ROOT}/../../GemvaryToolSDK/Frameworks/GemvaryToolSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/RealReachability/RealReachability.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CleanJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GemvaryToolSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealReachability.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -478,6 +484,7 @@
 			baseConfigurationReference = 1CC4690DDB391F67E7CBED2C /* Pods-GemvaryToolSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7UA78HHHB8;
 				INFOPLIST_FILE = GemvaryToolSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +500,7 @@
 			baseConfigurationReference = C26D52A30B8E56D06370016C /* Pods-GemvaryToolSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7UA78HHHB8;
 				INFOPLIST_FILE = GemvaryToolSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9ECE80EEDC5D5BA213AE11A /* Pods-GemvaryToolSDK_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7UA78HHHB8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +538,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7020C01B90F2DAB69E1DCC12 /* Pods-GemvaryToolSDK_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7UA78HHHB8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

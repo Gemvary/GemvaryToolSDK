@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GemvaryToolSDK
 
 class ViewController: UIViewController {
 

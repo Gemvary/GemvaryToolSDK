@@ -32,6 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'GemvaryToolSDK/Classes/**/*'
   
+  s.vendored_frameworks = "GemvaryToolSDK/Frameworks/*.framework"
+  
+  s.dependency 'CleanJSON'
+  s.dependency 'RealReachability' # 网络状态工具
+  
   # s.resource_bundles = {
   #   'GemvaryToolSDK' => ['GemvaryToolSDK/Assets/*.png']
   # }
